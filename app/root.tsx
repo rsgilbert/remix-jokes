@@ -1,4 +1,4 @@
-import { LiveReload, Outlet } from "@remix-run/react";
+import { Links, LiveReload, Outlet } from "@remix-run/react";
 
 
 export default function App() {
@@ -11,6 +11,7 @@ export default function App() {
                     content='width=device-width,initial-scale=1'
                     />
                 <title>Remix : So great, it's funny!</title>
+                <Links />
             </head>
             <body>
                 <p>Hello World</p>

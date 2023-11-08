@@ -1,3 +1,6 @@
+import type { LinksFunction } from "@remix-run/node"
+import stylesUrl from '~/styles/index.css'
+
 export default function IndexRoute() {
     return (
         <div>
@@ -5,3 +8,10 @@ export default function IndexRoute() {
         </div>
     )
 }
+
+export const links: LinksFunction = () => [
+    {
+        rel: 'stylesheet',
+        href: stylesUrl
+    }
+]
