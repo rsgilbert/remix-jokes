@@ -5,3 +5,5 @@
 // create prisma schema 
 npx prisma init --datasource-provider sqlite
 
+// create the db from prisma schema 
+npx prisma db push   
