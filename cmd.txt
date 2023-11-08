@@ -1,0 +1,7 @@
+//
+
+
+// prisma
+// create prisma schema 
+npx prisma init --datasource-provider sqlite
+
