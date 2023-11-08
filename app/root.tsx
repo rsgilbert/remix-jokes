@@ -1,4 +1,4 @@
-import { LiveReload } from "@remix-run/react";
+import { LiveReload, Outlet } from "@remix-run/react";
 
 
 export default function App() {
@@ -14,6 +14,7 @@ export default function App() {
             </head>
             <body>
                 <p>Hello World</p>
+                <Outlet />
                 <LiveReload />
             </body>
         </html>
